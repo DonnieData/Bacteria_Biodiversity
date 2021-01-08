@@ -33,7 +33,7 @@ function buildMetadata(sample) {
     var PANEL = d3.select("#sample-metadata");
     // ensure panel content is cleared so new information is displayed based on selection
     PANEL.html("");
-    // print location
+    // print information
     Object.entries(result).forEach(([key, value]) =>
       {PANEL.append("h6").text(key.toUpperCase() +':' + value);});
   
