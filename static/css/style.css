@@ -1,6 +1,4 @@
 .jumbotron {
-    background-image: url("../image/bacteria.jpg");
-    background-size: 100% 100%;
     border-style: solid;
     border-width: thin;
     border-bottom-right-radius: 6px;
@@ -9,6 +7,8 @@
     padding: 0px;
     margin: 0px;
     margin-bottom:25px;
+   /* background-color: white; */
+    background-image: url("../images/nasa.jpg");
 }
 
 
