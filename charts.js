@@ -99,8 +99,8 @@ var trace = {
 
     // 9. Create the layout for the bar chart. 
     var barLayout = {
-      title: "Top 10 Bacteria Cultures Found",
-      width: 400,
+      title: `<br>Top 10 Bacteria Cultures Found`,
+      width: 425, height: 375 
 
     };
 
@@ -124,10 +124,9 @@ var trace = {
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-        title: "Bacteria Cultures Per Sample",
+        title: `Bacteria Cultures Per Sample`,
         showlegend: "false ",
         xaxis: {title: "OTU ID"},
-  
 
     };
 
@@ -149,7 +148,7 @@ var trace = {
         {
           domain: {x: [], y: []},
           value: idFrequency,
-          title: {text:`<b>Belly Button Washing Frequency</b><br>Scrubs per Week`},
+          title: {text:`Belly Button Washing Frequency<br><span style='font-size:15px'><br>Scrubs per Week</span>`},
           type: "indicator",
           mode: "gauge+number",
           gauge:  {
@@ -168,7 +167,7 @@ var trace = {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      width: 470, height: 500, margin: {t: 0, b: 0, l:0}
+      width: 330, height: 375, margin: {t: 0, b: 0, l:0, r:0}
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
