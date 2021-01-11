@@ -1,21 +1,49 @@
 .jumbotron {
+    background-image: url("../image/bacteriacrrb.jpg");
+    background-size: 40% 140%;
     border-style: solid;
     border-width: thin;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-color: #1f77b4;
-    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 35px;
     margin: 0px;
     margin-bottom:25px;
-   /* background-color: white; */
-    background-image: url("../images/nasa.jpg");
-}
-
-
-.bar-container {
-    margin-left: 20px;
     
 }
+
+
+h2 {
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+}
+
+
+
+p {
+    font-size: 15px;
+}
+
+.info-container {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: #D6DAD7;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding-top: 5px;;
+}
+
+.bar-container {
+    margin-left: 20px; 
+}
+
+
 .bubble-container,.gauge-container, .bar-container {
     border-style: solid;
     border-width: 2px;
@@ -29,27 +57,23 @@
     border-width: 2px;
     border-color: #1f77b4;
     border-radius: 6px;
+    background-color: white !important;
 }
 
 .panel {
     border-radius: 6px;
 }
+
 .gauge-container {
-    margin-left: 30px;
-   
+    margin-left: 30px;  
 }
 
 .bubble-container {
     margin-top: 10px;
     margin-bottom: 20px;
- 
 }
 
 
 body {
     background-color:#EBECEB;
 }
-/*
-.gauge-container { 
-    text-align: center;
-} */ 
