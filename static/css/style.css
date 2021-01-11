@@ -8,13 +8,24 @@
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-color: #1f77b4;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 35px;
     margin: 0px;
     margin-bottom:25px;
-    
+    text-align: center;
 }
 
+.btn {
+    margin-right: 10px;
+    opacity: 0.8;
+    border: solid #D6DAD7 2px;
+    margin-top: 15px;
+    color:  #1f77b4;
+}
+
+.btn:hover {
+    background: white;
+}
 
 h2 {
     font-weight: bold;
