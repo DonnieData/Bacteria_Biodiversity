@@ -1,31 +1,30 @@
-.jumbotron {
-    background-image: url("../image/bacteriacrrb.jpg");
-    background-size: 40% 140%;
-    border-style: solid;
-    border-width: thin;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-color: #1f77b4;
-    padding-top: 20px;
-    padding-bottom: 35px;
-    margin: 0px;
-    margin-bottom:25px;
-    text-align: center;
+nav {
+    background-image: url("../image/bann.jpg");
+    background-size: 100% 100%;
+    border-bottom-style: solid;
+    border-bottom-color:#1f77b4;
+    border-bottom-width: 1.5px;
+
+}
+
+
+#head-title {
+    font-weight: bold;
+    color:#15458d ;
+}
+
+}
+#gauge {
+    padding: 0;
 }
 
 .btn {
+    background-color: rgba(255, 255, 255, 0.966);  
+    font-weight: bold;
     margin-right: 10px;
     opacity: 0.8;
-    border: solid #D6DAD7 2px;
-    margin-top: 15px;
-    color:  #1f77b4;
 }
 
-.btn:hover {
-    background: white;
-}
 
 h2 {
     font-weight: bold;
@@ -39,6 +38,11 @@ p {
     font-size: 15px;
 }
 
+.info {
+    background-color: white;
+}
+
+/*
 .info-container {
     border-style: solid;
     border-width: 2px;
@@ -49,12 +53,14 @@ p {
     margin-left: 15px;
     padding-top: 5px;;
 }
+*/
+
 
 .bar-container {
     margin-left: 20px; 
 }
 
-
+/*
 .bubble-container,.gauge-container, .bar-container {
     border-style: solid;
     border-width: 2px;
@@ -62,19 +68,34 @@ p {
     border-color: #D6DAD7;
     background-color: white;
 }
+*/
+
 
 .well {
     border-style: solid;
-    border-width: 2px;
+    border-width: 1.5px;
     border-color: #1f77b4;
-    border-radius: 6px;
-    background-color: white !important;
+    margin-bottom: 0px;
+   
 }
+
 
 .panel {
-    border-radius: 6px;
+    margin-top: 0px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #1f77b4
 }
 
+.panel-heading {
+    background-color: #1f77b4;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #1f77b4;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
 .gauge-container {
     margin-left: 30px;  
 }
@@ -86,5 +107,7 @@ p {
 
 
 body {
-    background-color:#EBECEB;
+    background-color:#F4F6F6;
 }
+
+
