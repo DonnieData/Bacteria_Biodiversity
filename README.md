@@ -13,4 +13,6 @@ The drop down within the dashboard allows you to select a volunteer's id number.
 
 <b> View The Deployed Project Here[https://donniedata.github.io/Bacteria_Biodiversity/] </b>
 
+[biopng](https://github.com/DonnieData/DonnieData.github.io/blob/master/assets/images/post/biodiversity_dash_1.png)
 
+[biovid](https://github.com/DonnieData/DonnieData.github.io/blob/master/assets/images/post/biodiversity_dash_2.gif)
