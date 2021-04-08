@@ -1,4 +1,4 @@
-# Button_Biodiversity
+# Bacteria_Biodiversity
 Creating dynamic and customizable charts with Javascript.
 
 
